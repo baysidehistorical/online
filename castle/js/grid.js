@@ -209,6 +209,11 @@ $(function() {
 
       });
 
+      $(".ib-preview-img").click(function () {
+        closeImgPreview();
+      });
+
+
       //resizing the window resizes the preview image
       $(window).bind('resize.ibTemplate', function( event ) {
 
@@ -232,6 +237,10 @@ $(function() {
 
         closeContentPreview();
 
+      });
+
+      $(".ib-content-preview").click(function () {
+        closeContentPreview();
       });
 
     },
