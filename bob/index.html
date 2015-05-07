@@ -1,0 +1,151 @@
+<html>
+<head>
+
+<title>Businesses of Bayside - BHS Online</title>
+<meta name="keywords" content="bayside, historical society, fort totten, castle, bhs online" />
+<link rel="shortcut icon" href="favicon.ico">
+<style type = "text/css">
+#leftArrow{
+	float:left;
+	background-color:rgba(50,50,50,0.8);
+	width:10%;
+	height:97.5%;
+}
+#rightArrow{
+	float:left;
+	background-color:rgba(50,50,50,0.8);
+	width:10%;
+	height:97.5%;
+}
+#businessType{
+	float:left;
+	background-color:rgba(255,0,0,0);
+	width:80%;
+	min-height:100%;
+}
+#businessPic{
+	background-color:rgba(165,42,42,0.8);
+	height:80%;
+	padding:1%;
+}
+#businessPic iframe{
+	padding-top: 1%;
+}
+#businessName{
+	height:20%;
+	background-color:rgba(40,40,40,0.8);
+	text-align: center;
+	color: rgb(165,42,42);
+	font-size: 5em;
+}
+#businesses{
+	width:100%;
+	height: 30%;
+	background-color:rgb(165,42,42);
+	float:left;
+	padding: 1%;
+}
+#leftArrow1{
+	width:10%;
+	height:100%;
+	background-color: rgba(70,70,70,0);
+	z-index: 0.5;
+}
+#businessPictures{
+	width:100%;
+	height:100%;
+	background-color:green;
+}
+#rightArrow1{
+	left: 92%;
+	width:10%;
+	height:100%;
+	background-color:rgba(70,70,70,0.2);
+	z-index: 1;
+
+}
+#type{
+	min-height: 100%;
+	width:100%;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+body{
+	background-color: rgb(165,42,42);
+	padding:0px;
+
+}
+
+
+#rightArrow, #leftArrow, #leftArrow1, #rightArrow1{
+	text-align: center;
+	font-size: 1000%;
+	color: rgba(255,255,255,0.6);
+	position: relative;
+}
+
+.arrow{
+	position: absolute;
+	top: 50%;
+	margin: 0;
+	transform: translate(0, -50%);
+}
+
+#businessPic img{
+	height: 50%;
+	float: right;
+}
+
+#leftArrow1, #rightArrow1{
+	position: absolute;
+	height: 30%;
+	top: 100%;
+}
+
+
+
+
+</style>
+ <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+ <script src="jsClasses.js"> </script>
+ <script src="businessInfo.js"> </script>
+ <script src="jscode.js"> </script>
+
+
+</head>
+
+<body>
+
+
+<!-- This is where the information for a business that you click on will go -->
+
+
+
+
+
+<div id = "type">
+	<div id = "leftArrow" onclick = "previousBusinessType()" > <p class = "arrow">  < </p>  </div>
+	<div id = "businessType">
+		<div id = "businessName"> </div>
+		<div id = "businessPic"></div>
+	</div>
+	<div id = "rightArrow" onclick = "nextBusinessType()" > <p class = "arrow"> > </p> </div>
+</div>
+
+<div id = "businesses">
+
+	<div id = "businessPictures">
+		<canvas id="myCanvas" width="200" height="100">
+			Your browser does not support the HTML5 canvas tag.
+		</canvas>
+	</div>
+
+<div id = "leftArrow1" onmouseover = "previousBusinesses()" onmouseout = "stopMotion()" > <p class = "arrow">  < </p> </div>
+<div id = "rightArrow1" onmouseover = "nextBusinesses()" onmouseout = "stopMotion()" > <p class = "arrow">  > </p> </div>
+
+
+</div>
+
+</body>
+
+</html>
