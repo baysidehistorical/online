@@ -1,0 +1,108 @@
+<settings>
+  <General_Properties>
+    <componentWidth value="800"/>
+    <componentHeight value="800"/>
+    <assets value="images.xml"/>
+    <preloader value="assets/preloaders/redsquares.swf"/>
+    <dragEase value="4"/>
+    <navButtons value="assets/skins/controlsSkin1.xml"/>
+    <videoSkin value="assets/skins/videoSkin1.xml"/>
+    <closeBtnSkin value="assets/skins/closeBtn.xml"/>
+    <updateRotations value="true"/>
+    <showAbout value="true"/>
+    <useColorbox value="false"/>
+  </General_Properties>
+  <Colorbox_Properties>
+    <transition value="elastic"/>
+    <innerWidth value="900"/>
+    <innerHeight value="500"/>
+    <slideshow value="false"/>
+    <slideshowSpeed value="2500"/>
+  </Colorbox_Properties>
+  <Circle_Properties>
+    <radius value="60"/>
+    <position value="CC"/>
+    <offset value="0"/>
+    <centerItem value=""/>
+    <pointer value="assets/circleCenter/pointer3.gif"/>
+    <dragable value="true"/>
+    <spin value="false"/>
+    <spinSpeed value="5"/>
+    <spinDirection value="clockwise"/>
+  </Circle_Properties>
+  <Expand_Properties>
+    <type value="spaceOut"/>
+    <percent value="30"/>
+    <func value="Back"/>
+    <method value="easeOut"/>
+    <duration value="0.5"/>
+    <spaceFactor value="1"/>
+    <spacingTime value="2"/>
+  </Expand_Properties>
+  <Image_Properties>
+    <width value="240"/>
+    <height value="200"/>
+    <distance value="25"/>
+    <onClick value="minimize"/>
+  </Image_Properties>
+  <Border_Properties>
+    <useBorder value="true"/>
+    <width value="10"/>
+    <color value="0xffffff"/>
+    <alpha value="1"/>
+    <cornerRadius value="0"/>
+  </Border_Properties>
+  <Maximize_Properties>
+    <effect value="alpha"/>
+    <direction value="left"/>
+    <duration value="1"/>
+    <func value="Back"/>
+    <method value="easeOut"/>
+    <width value="600"/>
+    <height value="400"/>
+  </Maximize_Properties>
+  <Text_Properties>
+    <styleSheet value="assets/css/styleSheet.css"/>
+    <position value="bottom"/>
+    <width value="50"/>
+    <height value="300"/>
+    <backColor value="0xffffff"/>
+    <backAlpha value="1"/>
+    <borderWidth value="0"/>
+    <borderColor value="0xffffff"/>
+    <borderAlpha value="0"/>
+    <cornerRadius value="0"/>
+    <paddingLeft value="10"/>
+    <paddingRight value="10"/>
+    <paddingTop value="10"/>
+    <paddingBottom value="10"/>
+    <embedFonts value="true"/>
+  </Text_Properties>
+  <Background_Properties>
+    <fillType value="solid"/>
+    <backgroundImage value="assets/backgroundImages/blackDots.jpg"/>
+    <backgroundFitting value="noscale"/>
+    <backgroundColor1 value="0x000000"/>
+    <backgroundColor2 value="0xff0000"/>
+    <backgroundAlpha value="1"/>
+    <bgCornerRadius value="5"/>
+    <gradientRotation value="30"/>
+    <gradientRatio value="40"/>
+    <gradientPosX value="0"/>
+    <gradientPosY value="0"/>
+    <useShade value="false"/>
+    <shadeColor value="0x000000"/>
+    <shadeAlpha value="0.7"/>
+    <shadeRatio value="40"/>
+    <shadeWidth value="0"/>
+    <shadeHeight value="0"/>
+  </Background_Properties>
+  <Shade_Properties>
+    <useShade value="false"/>
+    <shadeColor value="0x000000"/>
+    <shadeAlpha value="0"/>
+    <shadeRatio value="40"/>
+    <shadeWidth value="0"/>
+    <shadeHeight value="0"/>
+  </Shade_Properties>
+</settings>
