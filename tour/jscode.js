@@ -76,8 +76,8 @@ function Sphere(nxtSrc,myArrows){
     
 	this.load = function(){
         if (this.img.src === "" ) {
-            this.img.src = "projectimages/" + this.src;
-            this.img_high.src = "imageshigh/" + this.src;
+            this.img.src = "projectimages/" + this.src.toUpperCase();
+            this.img_high.src = "imagesHigh/" + this.src.toUpperCase();
         }
     };
     this.update = function(angle, y){
