@@ -1,7 +1,7 @@
 function business(name,image,location,description,address){					//the location will hold the html for the google maps frame
 
 	this.name = name;
-	this.image = "http://gdriv.es/businesses/" + image;
+	this.image = "images/" + image;
 	this.location = location;
 	this.description = description;
 	this.address = address;
@@ -101,7 +101,7 @@ function business(name,image,location,description,address){					//the location w
 function businessType(businesses,name,image){
 	this.businesses = businesses;
 	this.name = name;
-	this.image = "http://gdriv.es/businesses/" + image;
+	this.image = "images/" + image;
 	this.x = 0;					//This will be the x-position for the beginning of the train of pics
 	this.tWidth = 0;
 	
